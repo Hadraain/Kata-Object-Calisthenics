@@ -32,7 +32,7 @@ The Rules
 
 The Kata
 ---------
-- 1h20 : Let's code ! TDD and Pair programming obligatoires
+- 1h20 : Let's code ! TDD et Pair programming obligatoires
 - 30min : Chaque groupe explique son code. Quelles règle sont été respectées, lesquelles ont été enfreintes? Pourquoi ? Quel design a émergé de l'exercice ?
 
 Tests D'acceptation (US)
