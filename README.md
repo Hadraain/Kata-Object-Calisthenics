@@ -30,24 +30,14 @@ The Rules
 8. No classes with more than two instance variables
 9. No getters/setters/properties
 
-You're a jedi ? You're are stronger than theses 9 rules ?
-----------
-1. Use Resharper and only use shortcuts to do the Kata. Mouse is forbidden. 
-
-If you are coming from a JAVA background and have been using IntelliJ IDEA, use this:
-http://www.jetbrains.com/resharper/docs/ReSharper90DefaultKeymap_IDEA_scheme.pdf
-
-If you are a visual studio user, use this:
-http://www.jetbrains.com/resharper/docs/ReSharper90DefaultKeymap_VS_scheme.pdf
-
 The Kata
 ---------
-- 1h to 1.5h : Let's code ! TDD and Pair programming required
-- 0.5h : Each group explains what they've done. What rule has been respected, what rule have been violated ? Why ?  What OO design emerged from this exercice ?
+- 1h20 : Let's code ! TDD and Pair programming obligatoires
+- 30min : Chaque groupe explique son code. Quelles règle sont été respectées, lesquelles ont été enfreintes? Pourquoi ? Quel design a émergé de l'exercice ?
 
-Acceptance tests
+Tests D'acceptation (US)
 ---------
-**Scenario** : Can depose and withdraw money on my account
+**US** : Can depose and withdraw money on my account
 
 ```
 Given a client makes a deposit of 1000€ on 10-01-2012
@@ -61,7 +51,7 @@ Date       || Credit    || Debit  || Balance
 10/01/2012 || 1000.00   ||        || 1000.00
 ```
 
-**Scenario** : Can depose money on my account with different currencies
+**US** : Can depose money on my account with different currencies
 
 ```
 Given the exchange rate USD to EUR is 0.8924 
@@ -75,7 +65,7 @@ Date       || Credit    || Debit  || Balance
 10/01/2012 || 1000.00   ||        || 1000.00
 ```
 
-**Scenario** : Can withdraw money on my account with different currencies
+**US** : Can withdraw money on my account with different currencies
 
 ```
 Given the exchange rate EUR to USD is 1.206 
