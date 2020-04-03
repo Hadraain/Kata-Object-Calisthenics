@@ -3,8 +3,11 @@ namespace BankAccountKata
 {
     public class Operations
     {
-        public Operations()
+        private Account _account;
+        
+        public Operations(Account account)
         {
+            _account = account;
         }
 
         public void deposit(double deposit)
