@@ -15,9 +15,17 @@ namespace BankAccountKata
             _account.updateSold(_account.getSold() + deposit);
         }
 
-        public void withdrawal(double withdraw)
+        public bool withdrawal(double withdraw)
         {
+            var newSold = _account.getSold() - withdraw;
+            
+            if (newSold >= 0)
+            {
+                _account.updateSold(newSold);
+                return true; 
+            }
 
+            return false;
         }
     }
 }
