@@ -48,5 +48,16 @@ namespace BankAccountKata.Test
             Check.That(operationRuslt).IsFalse();
             Check.That(account.getSold()).Equals(100.0);
         }
+
+        [Test]
+        public void depositDifferentCurrencyTest()
+        {
+            var account = new Account(Currencies.dollar);
+            var operation = new Operations(account);
+
+            operation.depositCurrency(100, Currencies.euro);
+
+            Check.That(account.getSold()).Equals(89.24);
+        }
     }
 }
