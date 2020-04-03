@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{B7D18237-B95E-43A2-AB4D-761CAC4CD57A}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BankAccountKata</RootNamespace>
     <AssemblyName>BankAccountKata</AssemblyName>
@@ -41,6 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="BankAccountKata.cs" />
+    <Compile Include="Operations.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
