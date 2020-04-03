@@ -8,7 +8,7 @@ namespace BankAccountKata
         {
             Console.WriteLine("Hello World!");
             Console.ReadKey();
-            var fff = new Operations();
+            //var fff = new Operations();
         }
     }
 }
