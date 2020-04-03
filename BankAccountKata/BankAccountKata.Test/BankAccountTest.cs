@@ -19,7 +19,7 @@ namespace BankAccountKata.Test
 
             operation.deposit(100);
 
-            Check.That(account.sold).Equals(100);
+            Check.That(account.getSold()).Equals(100);
         }
     }
 }
